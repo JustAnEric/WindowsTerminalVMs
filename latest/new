@@ -1,0 +1,10 @@
+#!/bin/bash
+# CREATES A NEW WINDOWS VIRTUAL MACHINE
+echo "Microsoft Windows [Version unknown]"
+echo "Copyright (c) 2023 Microsoft Corporation.  All rights reserved.\n";
+
+while true
+do
+  echo "C:\>";
+  read cmd
+done
