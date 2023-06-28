@@ -13,3 +13,6 @@ echo "Creating new virtual machine creator...";
 echo "Run /sandbox/new";
 echo $separator
 cp ./latest/new /home/$USER/sandbox;
+echo "Opening a new virtual machine window... Only gnome-terminal will work with this tool.";
+chmod +x /home/$USER/sandbox/new
+gnome-terminal --command /home/$USER/sandbox/new
