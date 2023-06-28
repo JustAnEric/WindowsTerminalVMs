@@ -6,4 +6,4 @@ sleep 1
 clear
 echo "Creating your new Windows virtualised sandbox..."
 echo Current user account: $USER;
-mkdir /home/ $USER /sandbox/
+mkdir /home/$USER/sandbox/
