@@ -1,0 +1,9 @@
+#!/bin/bash
+# This program is intended for Linux use only. If you want to run this on separate platforms like Windows, refer to the developer docs.
+clear
+echo "Starting..."
+sleep 1
+clear
+echo "Creating your new Windows virtualised sandbox..."
+echo Current user account: $USER;
+mkdir /home/ $USER /sandbox/
